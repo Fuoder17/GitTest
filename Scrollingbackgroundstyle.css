@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+margin-bottom: 20Px;
+}
+
+html, body {
+  height: 100%;
+
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0,0, 0,0.5);
+  z-index: 99;
+  text-align: center;
+}
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    line-height: 50px;
+
+}
+
+.sect {
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+
+
+}
+
+.subSection {
+  height: 50%;
+  background-color: white;
+
+}
+
+.sectOne {
+background-image: url("../Images/Hardware-UP(Thomas-Kvistholt).jpg");
+
+
+}
+
+.sectTwo {
+  background-image: url("../Images/roman-spiridonov-629353-unsplash(ED).JPEG");
+
+}
+
+.sectThree {
+  background-image: url("../Images/patrick-lindenberg-191841-unsplash(ED).JPEG");
+
+}
